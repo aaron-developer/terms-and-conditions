@@ -1,2 +1,2 @@
 # terms-and-conditions
-Make with html, js and css
+Made with html, js and css
