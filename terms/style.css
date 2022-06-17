@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color:white;
+    background-image: url(https://i.pinimg.com/originals/34/16/fc/3416fc4113b69a0bf1cc75a772c4b5c4.gif);
+    background-size: cover;
+}
+
+
+#seccion{
+border: solid 2px rgb(0, 74, 51) ;
+background-color: rgba(20, 20, 20, 0.83);
+transition:0.8s;
+width: 80%;
+border-radius: 2vh;
+height: 100%;
+
+}
+#seccion:hover{
+    border: solid 2px rgb(0, 168, 157) ;
+    background-color: rgb(20, 20, 20);
+    border-radius: 100px 1px 100px 1px;
+    transition:1s;
+    }
+
+    #demo3{
+        font-size: 3vh;
+        color: orange;
+    }
+/* Responsive seccion*/
+@media (max-width: 800px) {
+    #seccion {
+      width: 90%;
+      font-size: 2vh;
+    }
+    #demo3{
+        font-size: 2vh;
+    }
+    #demo4{
+      font-size: 11px;
+    }
+  }
+
+#myDIV {
+    color: rgb(0, 255, 242);
+    font-family: cursive;
+}
+
+
+
+#myDIV1 {
+    color: rgb(44, 239, 0);
+    font-size: 2vh;
+}
+
+/*buttons*/
+button {
+    background-color: #202020; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  button:hover{
+    box-shadow: 0 8px 16px 0 rgba(23, 231, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.9s;
+    border-radius: 100px 1px 100px 1px;
+  }
+  
